@@ -1,0 +1,138 @@
+body{
+
+    background-image: url(../img/bg-all-hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  
+  height: 20rem;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+  overflow: auto;
+
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.green .additional {
+  background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+
+/* form add patient  */
+.contact{
+  padding: 5%;
+ 
+}
+.col-md-3{
+  background: #8c9fb4;
+  padding: 4%;
+  
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #445857;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+/* form add patient  */
+
+
+/* navbar */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 42, 63); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(111, 136, 179); 
+}
+
+.text-navbar{
+  color: #606f81 !important;
+  font-size: large;
+  font-weight: bolder;
+}
+.text-navbar:hover{
+  color: #0b1f38 !important;
+  font-size: x-large; 
+}
+.logo{
+  color: #0b1f38 !important;
+  
+}
+.card-profil-patient{
+  height: 25.9rem;
+}
+
+.rdv-programme{
+  color: #606f81 !important;
+}
+/* test */
+
